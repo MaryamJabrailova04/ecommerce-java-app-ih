@@ -3,7 +3,7 @@ name: Build Test Deploy Java App to Azure Container Apps
 on:
   workflow_dispatch:
 
-env:
+env: 
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/java-container-app
   RESOURCE_GROUP: java-container-rg-maryam
   CONTAINERAPP_NAME: java-container-app-maryam

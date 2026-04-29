@@ -5,8 +5,8 @@ on:
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/java-container-app
-  RESOURCE_GROUP: java-container-rg
-  CONTAINERAPP_NAME: java-container-app
+  RESOURCE_GROUP: java-container-rg-maryam
+  CONTAINERAPP_NAME: java-container-app-maryam
 
 jobs:
   build-test-deploy:
